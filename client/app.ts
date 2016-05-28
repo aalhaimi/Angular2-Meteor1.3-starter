@@ -10,7 +10,7 @@ import { MeteorComponent } from 'angular2-meteor';
     templateUrl: "client/app.html"
 })
 
-class MoshTut extends MeteorComponent{
+class App extends MeteorComponent{
     constructor() {
         super();
     }
@@ -24,4 +24,4 @@ class MoshTut extends MeteorComponent{
     }
 }
 
-bootstrap(MoshTut);
+bootstrap(App);
